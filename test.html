@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Education process for JS basics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script> mocha.setup("bdd") </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script> let assert = chai.assert </script>
+
+    <script src="describeMocha.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <p>Перед скриптом...</p>
+
+    <script>
+        
+    </script>
+
+    <p>...После скрипта.</p>
+
+    <div id="mocha"></div>
+    <script> mocha.run() </script>
+</body>
+
+</html>
+
+<!--function ask(question, ...handlers) {-->
+<!--let isYes = confirm(question);-->
+
+<!--for(let handler of handlers) {-->
+<!--if (handler.length === 0) {-->
+<!--if (isYes) handler();-->
+<!--} else {-->
+<!--handler(isYes);-->
+<!--}-->
+<!--}-->
+
+<!--}-->
+<!--ask("Question", () => alert("you choose true!"), cansel => alert(`you choose ${cansel}!`));-->
