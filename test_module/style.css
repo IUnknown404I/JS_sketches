@@ -1,0 +1,15 @@
+/** {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*}*/
+
+.circle {
+  transition-property: width, height, margin-left, margin-top;
+  transition-duration: 1.5s;
+  position:fixed;
+  top: 75%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  /*background-color: blue;*/
+  border-radius: 50%;
+}

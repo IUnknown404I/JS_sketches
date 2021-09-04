@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Title</title>
+
+  <script src="gitAvatar.js"></script>
+  <script src="browserInfo.js"></script>
+  <script src="circleDrow.js"></script>
+
+</head>
+
+<body>
+  <div>
+    <div align="center">
+      <button id="browser" onclick=runBrow() style = "background-color: #FFA07A"> Browser and OS </button>
+      <button id="avatar" onclick=runAvatar() style = "background-color: #FFA07A"> GitHub user Avatar </button>
+      <button id="round" onclick=runCircle(100) style = "background-color: #FFA07A"> Run Circle </button>
+    </div>
+  </div>
+
+  <hr id="upperHr">
+  <div align="center">
+    <text id="elem"><b>Test Module is there</b></text>
+  </div>
+  <hr id="bottomHr">
+
+  <script>
+    setInterval(() => {
+      elem.hidden = !elem.hidden;
+    }, 1250);
+  </script>
+
+</body>
+</html>
